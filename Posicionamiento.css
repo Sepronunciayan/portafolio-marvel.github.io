@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(imagenes/el\ capi\ que\ no\ es\ capi\ \(1\).png);
+}
+
+/* --------------------------------------------------------- */
+.titulo-boton,
+h1 {
+    color: rgba(0, 0, 0, 0.405);
+    font-size: 1.5em;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-align: center;
+}
+
+.targeta-menu {
+    width: 150px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: rgba(1, 220, 228, 0);
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.329);
+    color: #00000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 790px;
+    right: 22px;
+    margin: auto;
+    border-radius: 1px solid gray;
+    z-index: 999;
+
+}
+
+.targeta-menu:hover {
+    color: rgba(0, 0, 0, 0);
+    background: #3f3f3f83;
+    color: #fff;
+}
+
+h1:hover {
+    color: white;
+}
+
+
+
+/* --------------------------------------------------------- */
+
+header {
+    background-color: black;
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+
+}
+
+.arriba {
+    display: flex;
+}
+
+.izquierda1 {
+    width: 10%;
+    height: 9vh;
+    border: 1px solid gray;
+
+}
+
+.izquierda2 {
+    width: 25%;
+    height: 9vh;
+    border: 1px solid gray;
+    background-image: url(imagenes/login.png);
+    background-size: cover;
+}
+
+
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 9vh;
+    border: 1px solid gray;
+}
+
+#logo {
+    width: 20vh;
+}
+
+.derecha1 {
+    width: 25%;
+    height: 9vh;
+    border: 1px solid gray;
+    background-image: url(imagenes/buscador\ marvel.png);
+    background-size: cover;
+}
+
+.derecha2 {
+    width: 10%;
+    height: 9vh;
+    border: 1px solid gray;
+
+}
+
+.abajo {
+    display: flex;
+    width: 100%;
+    height: 5.5vh;
+    border: 2px solid gray;
+}
+
+
+.menu,
+ul,
+li {
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: 0.9em;
+    margin: auto;
+}
+
+li {
+
+    padding: 0px 5px 0px 5px;
+}
+
+/* CONTENIDO */
+.vacio {
+    height: 150px;
+}
+
+.contenedor {
+    display: flex;
+    width: 99.90%;
+    margin: 1px;
+}
+
+.seccion-der {
+    background-color: rgba(165, 42, 42, 0.258);
+    width: 30%;
+    padding: 12px;
+    margin: 8px 4px 8px 8px;
+    text-align: justify;
+}
+
+.seccion-izq {
+    background-color: rgba(165, 42, 42, 0.258);
+    width: 70%;
+    padding: 10px;
+    margin: 8px 8px 8px 4px;
+    text-align: justify;
+
+}
+
+.contenedor-txtimg {
+    width: 100%;
+    display: flex;
+    vertical-align: top;
+}
+
+.txtimg {
+    width: 50%;
+   
+}
+
+.text {
+    width: 100%;
+    padding: 8px;
+}
+
+#imagen1 {
+    width: 20%;
+    position: absolute;
+  
+}
+
+#imagen2 {
+    width: 30%;
+    position: relative;
+    right: -200px;
+    /* scalex:-1; */
+}
+
+#imagenpubli{
+    width: 100%;
+    height: 700px;
+    position: sticky;
+    top: 95px;
+}

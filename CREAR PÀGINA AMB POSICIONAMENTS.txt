@@ -1,0 +1,13 @@
+CREAR PÀGINA AMB POSICIONAMENTS
+
+Tens una pàgina de notícies amb els quatre tipus de posicionament, i el z-index també.
+Exemples:
+<nav> que sigui un sticky
+Anunci o oferta : que sigui un fixed
+
+Algun element que vulguis corregir, que sigui relative, per exemple, distància del títol principal a l’imatge principal.
+
+Algún element que estigui dintre d’un altre, que sigui absolute. Exemple: tens un texte o imatge dintre d’una altra imatge.
++ un altre absolute que NO estigui dintre d’un altre div.
+
+z-index: provar tres elements que es vegin un a sobre de l’altre. Per exemple, element decoratiu o publicitari
